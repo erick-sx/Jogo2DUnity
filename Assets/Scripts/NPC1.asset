@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a3036c41f7f6043985b48b18b691f1, type: 3}
+  m_Name: NPC1
+  m_EditorClassIdentifier: 
+  name: "Professor de Matem\xE1tica"
+  dialogue:
+  - "Ol\xE1, sobre o que vamos aprender hoje?"
+  - "Legal! Na soma n\xF3s adicionamos dois n\xFAmeros para resultar em um, por exemplo:
+    se temos uma ma\xE7\xE3 e ganhamos outra, ficamos com duas. Para a subtra\xE7\xE3o,
+    pense como se voc\xEA tivesse comido essa ma\xE7\xE3. Uma ma\xE7\xE3 menos outra,
+    ficando com apenas uma no final."
+  - "Na multiplica\xE7\xE3o n\xF3s temos dois n\xFAmeros que independente da ordem
+    somamos um ao n\xFAmero de vezes do outro. 3x2 e 2x3 tem o mesmo resultado! Para
+    realizar uma divis\xE3o, devemos utilizar o chamado algoritmo de Euclides, ou
+    seja, devemos imaginar um n\xFAmero (quociente) que, quando multiplicado com
+    o divisor, seja igual ou se aproxime o m\xE1ximo poss\xEDvel do dividendo. Caso
+    voc\xEA encontre um n\xFAmero cuja multiplica\xE7\xE3o seja igual ao dividendo,
+    a divis\xE3o chega ao fim."
+  - "Ent\xE3o voc\xEA quer aprofundar em propor\xE7\xF5es, n\xE3o \xE9? Entendemos
+    propor\xE7\xF5es de formas simples atrav\xE9s de fra\xE7\xF5es. Quando duas raz\xF5es
+    (fra\xE7\xF5es) apresentam o mesmo resultado, significa que temos uma propor\xE7\xE3o
+    equivalente, por exemplo 6/3 e 8/4. Os dois resultados s\xE3o iguais, interessante,
+    n\xE3o acha?"
+  - "At\xE9 logo, vamos aprender mais !"
+  playerDialogue:
+  - "Adi\xE7\xE3o e Subtra\xE7\xE3o"
+  - "Divis\xE3o e Multiplica\xE7\xE3o"
+  - "Propor\xE7\xF5es"
+  - "J\xE1 entendi tudo!"
