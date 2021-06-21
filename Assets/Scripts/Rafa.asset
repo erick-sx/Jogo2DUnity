@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a3036c41f7f6043985b48b18b691f1, type: 3}
+  m_Name: Rafa
+  m_EditorClassIdentifier: 
+  name: Rafa
+  dialogue:
+  - "Ol\xE1, tudo bem? Voc\xEA gosta de futebol? Eu adoro! Mas \xE9 impotante estudar,
+    portugu\xEAs \xE9 muito importante e por isso estudo muito!"
+  - "Eu acho bem simples, \xE9 s\xF3 entender a pergunta com calma e ler o texto
+    novamente."
+  - "O professor adora falar sobre g\xEAneros textuais, o preferido dele \xE9 f\xE1bula!"
+  - "At\xE9 logo!"
+  playerDialogue:
+  - Como interpretar textos?
+  - "Voc\xEA pode me dar alguma dica das aulas?"
+  - Entendi, obrigado!

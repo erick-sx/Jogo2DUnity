@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a3036c41f7f6043985b48b18b691f1, type: 3}
+  m_Name: Maria
+  m_EditorClassIdentifier: 
+  name: Maria
+  dialogue:
+  - "Voc\xEA \xE9 muito inteligente, sabia? Como posso te ajudar?"
+  - "Nos adjetivos? Mas eu acabei de te chamar de INTELIGENTE, que qualidade incr\xEDvel,
+    n\xE3o \xE9? Ali\xE1s, como o dia est\xE1 BONITO hoje, n\xE3o \xE9?"
+  - De nada!!
+  playerDialogue:
+  - Estou com dificuldades nos adjetivos
+  - Entendi, obrigado

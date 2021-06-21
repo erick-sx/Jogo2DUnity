@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a3036c41f7f6043985b48b18b691f1, type: 3}
+  m_Name: Joao
+  m_EditorClassIdentifier: 
+  name: "Jo\xE3o"
+  dialogue:
+  - "Foi o Pedrinho que mandou voc\xEA aqui? Posso te ajudar!"
+  - "Estudo diariamente e j\xE1 resolvi as quest\xF5es do professor. A resposta da
+    quest\xE3o de soma \xE9 4 pois os par\xEAntesis tem prioridade na solu\xE7\xE3o,
+    sabia disso?"
+  - "At\xE9 logo!"
+  playerDialogue:
+  - "Oi, o Pedro me contou que voc\xEA estuda bastante matem\xE1tica"
+  - "At\xE9 mais!"

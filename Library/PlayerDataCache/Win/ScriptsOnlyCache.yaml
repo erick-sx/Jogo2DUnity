@@ -6,7 +6,9 @@ ScriptsOnlyBuild:
     - NPC
     - PauseMenu
     - PlayerController
+    - QuestionManager
     - UIScript07
+    - UIScript08
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -48,12 +50,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Shadow
-    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.ToggleGroup
   sceneClasses:
-    Assets/MenuScene.unity:
+    Assets/Scenes/MenuScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -77,25 +78,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11622}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12288}
     - Class: 114
-      Script: {instanceID: 12670}
+      Script: {instanceID: 12342}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 12676}
     - Class: 114
-      Script: {instanceID: 13338}
+      Script: {instanceID: 12996}
     - Class: 114
-      Script: {instanceID: 13356}
+      Script: {instanceID: 13342}
     - Class: 114
-      Script: {instanceID: 13652}
+      Script: {instanceID: 13360}
     - Class: 114
-      Script: {instanceID: 13754}
+      Script: {instanceID: 13656}
     - Class: 114
-      Script: {instanceID: 14030}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 14202}
+      Script: {instanceID: 14034}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 14206}
+    - Class: 114
+      Script: {instanceID: 14372}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -131,6 +134,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -150,31 +155,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11622}
     - Class: 114
-      Script: {instanceID: 12164}
+      Script: {instanceID: 11798}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 12166}
     - Class: 114
-      Script: {instanceID: 12332}
+      Script: {instanceID: 12214}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 12288}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 12336}
     - Class: 114
-      Script: {instanceID: 13122}
+      Script: {instanceID: 12670}
     - Class: 114
-      Script: {instanceID: 13282}
+      Script: {instanceID: 12996}
     - Class: 114
-      Script: {instanceID: 13754}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13772}
+      Script: {instanceID: 13286}
     - Class: 114
-      Script: {instanceID: 14088}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 13776}
     - Class: 114
-      Script: {instanceID: 14388}
+      Script: {instanceID: 14092}
     - Class: 114
-      Script: {instanceID: 14436}
+      Script: {instanceID: 14372}
+    - Class: 114
+      Script: {instanceID: 14392}
+    - Class: 114
+      Script: {instanceID: 14440}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -324,6 +333,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 46b0222141ab83a0493f0bc583c6e673
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuestionManager
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -396,6 +411,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 8138226d5c13d05037b9a317f0537795
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIScript08
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -420,7 +441,7 @@ ScriptsOnlyBuild:
     className: SpriteShape
   - hash:
       serializedVersion: 2
-      Hash: 6c6bb3645197c07e380c6020bf05c89c
+      Hash: fb95c47d5ce2b283602171cd5aa69f8d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DialogueManager
@@ -448,6 +469,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: c8c5e65e9fb858572516474d6e2102bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -478,12 +505,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
-  - hash:
-      serializedVersion: 2
-      Hash: c8c5e65e9fb858572516474d6e2102bc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PauseMenu
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -720,7 +741,6 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 5
   scenePathNames:
-  - Assets/MenuScene.unity
+  - Assets/Scenes/MenuScene.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Erick/Desktop/Docs tcc/Unity/2d Projeto tcc/2d Projeto tcc_Data/2d
-    Projeto tcc.exe
+  playerPath: C:/Users/Erick/Desktop/build/2d Projeto tcc.exe

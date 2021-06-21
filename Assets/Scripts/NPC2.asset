@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Professor 2
   dialogue:
-  - "Ol\xE1, vamos estudar Portugu\xEAs?"
+  - "Ol\xE1, vamos estudar Portugu\xEAs? V\xE1 ao quadro mais pr\xF3ximo de mim para
+    responder as quest\xF5es"
   - Texto de linguagens explicativas
   - "Portugu\xEAs \xE9 legal, volte depois!"
   playerDialogue:

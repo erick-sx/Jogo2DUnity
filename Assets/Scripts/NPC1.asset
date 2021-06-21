@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Professor de Matem\xE1tica"
   dialogue:
-  - "Ol\xE1, sobre o que vamos aprender hoje?"
+  - "Ol\xE1, sobre o que vamos aprender hoje? V\xE1 ao quadro mais pr\xF3ximo de
+    mim para responder as quest\xF5es"
   - "Legal! Na soma n\xF3s adicionamos dois n\xFAmeros para resultar em um, por exemplo:
     se temos uma ma\xE7\xE3 e ganhamos outra, ficamos com duas. Para a subtra\xE7\xE3o,
     pense como se voc\xEA tivesse comido essa ma\xE7\xE3. Uma ma\xE7\xE3 menos outra,

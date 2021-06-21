@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIScript07 : MonoBehaviour
 {
@@ -20,14 +21,20 @@ public class UIScript07 : MonoBehaviour
         
     }
 
+
     public void SubmitAnswer()
     {
         for(int i = 0; i < qaArray.Length; i++)
         {
             qaArray[i] = ReadQuestionAndAnswer(questionGroupArray[i]);
         }
-
         DisplayResult();
+    }
+
+    public void Finalizar()
+    {
+         
+        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
     }
 
     QAClass07 ReadQuestionAndAnswer(GameObject questionGroup)
@@ -45,7 +52,8 @@ public class UIScript07 : MonoBehaviour
             {
                 if (a.transform.GetChild(i).GetComponent<Toggle>().isOn)
                 {
-                    result.Answer = a.transform.GetChild(i).Find("Label").GetComponent<Text>().text;
+                    result.Answer = a.transform.GetChild(i).
+                    Find("Label").GetComponent<Text>().text;
                     break;
                 }
             }
@@ -89,17 +97,29 @@ public class UIScript07 : MonoBehaviour
 
     void DisplayResult()
     {
-        AnswerPanel.SetActive(false);
+        AnswerPanel.SetActive(true);
 
         string s = "";
 
         for (int i = 0; i < qaArray.Length; i++)
         {
-            s = s + qaArray[i].Question + "\n";
+            if(i == 0){
+            s = s + qaArray[i].Question + " - A RESPOSTA CORRETA É X\n";
             s = s + qaArray[i].Answer + "\n\n";
+            }
+            if(i == 1){
+            s = s + qaArray[i].Question + " - A RESPOSTA CORRETA É Y\n";
+            s = s + qaArray[i].Answer + "\n\n";
+            }
+            if(i == 2){
+            s = s + qaArray[i].Question + " - A RESPOSTA CORRETA É Z\n";
+            s = s + qaArray[i].Answer + "\n\n";
+            }
         }
 
-       AnswerPanel.transform.Find("Answer").GetComponent<Text>().text = s;
+       AnswerPanel.transform.Find("Text").GetComponent<Text>().text = s;
+
+
     }
 }
 
